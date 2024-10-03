@@ -1,0 +1,3 @@
+ExtractingxHI.py : to extract the 3D xHI arrays from the maps and parameter values from the file name
+ExtractingHDM.py: to extract the 3D Halo and Dark Matter density arrays from the maps
+384to48.py: to convert the simulation output (xHI, HDM, xHI) from 384^3 to 48^3 since we hit the limit of available computational resources.
