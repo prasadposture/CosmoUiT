@@ -1,0 +1,11 @@
+einops==0.8.0
+ipykernel==6.29.5
+matplotlib==3.9.2
+numpy==1.26.4
+sklearn==1.5.1
+setuptools==72.1.0
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
+tqdm==4.66.5
+skimage==0.24.0
