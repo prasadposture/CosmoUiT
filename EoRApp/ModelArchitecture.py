@@ -6,6 +6,12 @@ import streamlit as st
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import gdown
+
+def download_model():
+    url = "https://drive.google.com/file/d/1j-qFa-Ovb9FZAZNoCrU_j3hz3Zze8Tx6/view?usp=sharing"
+    output = "CosmoUiTE1000.pth"
+    gdown.download(url, output, quiet=False)
 
 
 st.set_page_config(page_title='EoR App', page_icon=':smile:')
