@@ -13,7 +13,7 @@ def download_model():
     output = "CosmoUiTE1000.pth"
     gdown.download(url, output, quiet=False)
 
-
+download_model()
 st.set_page_config(page_title='EoR App', page_icon=':smile:')
 
 class PatchEmbedding(nn.Module):
