@@ -174,7 +174,7 @@ class CosmoUiT(nn.Module):
 # # Example usage
 model = CosmoUiT(patch_size=8, emb_dim=128, num_heads=8, num_layers=4, param_dim=3).to(device)
 
-model.load_state_dict(torch.load('CosmoUiTE1000.pth', map_location=torch.device('cpu'),weights_only=True))
+model.load_state_dict(torch.load('CosmoUiT100.pth', map_location=torch.device('cpu'),weights_only=True))
 model.eval() 
 
 # dm = np.load('/media/disk1/prasad/codes/Data/ReducedDM.npy')
